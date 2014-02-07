@@ -1,5 +1,5 @@
 <h1>Bueller Student Directory</h1>
-
+<p>Hello <%= current_user.name %></p>
 <%= link_to 'Edit Profile', edit_user_path(current_user) %>
 <%= link_to 'Sign Out', session_path(session), method: :delete %>
 
